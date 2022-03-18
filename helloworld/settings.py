@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# 설치되어져 있는 앱들
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'playground',
 ]
 
 MIDDLEWARE = [
