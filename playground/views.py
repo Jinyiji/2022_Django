@@ -8,3 +8,7 @@ def say_hello(request):
 
 def say_hello_html(request):
     return render(request, 'playground/hello.html')
+
+
+def say_bye_html(request):
+    return render(request, 'playground/bye.html')
